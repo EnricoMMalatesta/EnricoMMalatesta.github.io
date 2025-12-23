@@ -10,7 +10,7 @@
 @@
 
 
-I am an Assistant Professor at the [Computing Sciences Department](https://cs.unibocconi.eu/) at [Bocconi University](https://www.unibocconi.it/it) in Milan. aa
+I am an Assistant Professor at the [Computing Sciences Department](https://cs.unibocconi.eu/) at [Bocconi University](https://www.unibocconi.it/it) in Milan.
 
 My research lies at the interface of theoretical physics and computer science. 
 I am particularly interested in the statistical mechanics of disordered systems and their interdisciplinary applications, including constrained optimization problems, machine learning, and high-dimensional statistics.
