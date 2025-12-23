@@ -2,8 +2,8 @@
 
 
 ## Current Courses
-* [**Foundations of Physics II (30547)**](/teaching/physics2) <!--, Bachelor degree in Mathematical Computing for Artificial Intelligence (BAI)-->
-* [**Complex Systems and Physical Models (20883)**](/teaching/complexsystems) <!--, Master course in Artificial Intelligence (MAI)-->
+* [Foundations of Physics II (30547)](/teaching/physics2) <!--, Bachelor degree in Mathematical Computing for Artificial Intelligence (BAI)-->
+* [Complex Systems and Physical Models (20883)](/teaching/complexsystems) <!--, Master course in Artificial Intelligence (MAI)-->
 
 
 

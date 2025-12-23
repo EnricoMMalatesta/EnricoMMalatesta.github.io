@@ -2,9 +2,9 @@
 
 @def title = "Hello World!"
 @def authors = "E. Malatesta"
-@def published = "20 August 2025"
+@def published = "22 December 2025"
 @def pt_lang = false
-@def rss_pubdate = Date(2025, 8, 20)
+@def rss_pubdate = Date(2025, 12, 22)
 @def rss = "Hello World!"
 @def rss_description = """Introductory post in my blog"""
 

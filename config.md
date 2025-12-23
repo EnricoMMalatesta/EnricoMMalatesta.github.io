@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Enrico Malatesta"
+author = "Enrico M. Malatesta"
 mintoclevel = 2
 
 # uncomment and adjust the following line if the expected base URL of your website is something like [www.thebase.com/yourproject/]
@@ -26,4 +26,5 @@ website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
-\newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\scal}[1]{\left\langle #1 \right\rangle}
+\newcommand{\bs}[1]{\boldsymbol{#1}}

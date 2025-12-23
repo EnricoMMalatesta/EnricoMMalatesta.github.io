@@ -2,14 +2,26 @@
 
 ## Course Syllabus
 
-* **Mathematical preliminaries**: scalar and vector fields, field lines. Gradient, divergence, curl, Laplacian. Divergence and Stokes' theorems.
-* **Electrostatics**: electric charge, Coulombs law, electric field strength and potential, superposition contributions from point charges, Gauss' law, electrostatic energy and capacitors. 
-* **Conductors**: Electrostatic induction. Capacitors. Poisson and Laplace equations. Uniqueness and Mean value theorems.
-* **Dieletrics**: dieletric constant. Polarization
-* **Electric current and theory of circuits**: current density, Ohm's law, Kirchhoff's laws, Joule's law, electromotive force (EMF), charging and discharging of capacitors, circuit analysis.
-* **Magnetic fields**: flux density, magnetic forces, Biot-Savart law, magnetic dipoles, Ampere's law on integral form, magnetic polarisation and an overview of magnetic materials.
-* **Electromagnetic induction**: Faraday's law, inductance. LR cicuits, the energy of a magnetic field, mutual inductance.
-* **Maxwell's equations and wave propagation**.
+* **Mathematical preliminaries**: scalar and vector fields. Divergence and curl. Divergence and Stokes’ theorems. Irrotational and solenoidal fields.
+
+* **Electrostatics**: electric charge, Coulombs law, superposition principle. Electric field and potential, Gauss' law, work and energy of charged particles. Electric dipole. Boundary conditions.
+
+* **Conductors**: Electrostatic induction. Screening and Faraday cage. Capacitors. Poisson and Laplace equations. Uniqueness and Mean value theorems.
+
+* **Electric fields in matter**: dieletric constant. Main microscopic phenomena causing polarization. Linear dielectrics. 
+
+* **Electric current and theory of circuits**: current density, Ohm's law, Kirchhoff's laws, Joule's law, electromotive force (emf), charging and discharging of capacitors, circuit analysis.
+
+* **Magnetic fields**: Lorentz force, Biot-Savart law. Properties of the magnetic field in the stationary case. Ampere's law.  magnetic polarisation and an overview of magnetic materials.
+
+* **Magnetic fields in matter**: magnetic dipoles and magnetic polarization. Diamagnets, paramagnets, ferromagnets.
+
+* **Electromagnetic induction**: Faraday-Lenz law. Inductance. LR circuits. Energy of the magnetic field and  mutual inductance. 
+
+* **Maxwell's equations and wave propagation**. Overview of Maxwell’s equations. Wave Equation. Electromagnetic waves in vacuum. Velocity of light. Plane wave solution of Maxwell's equations.
+
+
+The detailed lecture plan can be found [here](/assets/teaching/physics2/Lecture Plan.pdf).
 
 ## Teaching Material
 
@@ -34,7 +46,7 @@ For further study, clarification and (solved) exercises, please consult:
 
 Weekly exercises are uploaded on BBoard.
 
-For doubts and questions use [Piazza](https://piazza.com/class/m0p49vuqi5v6s1).
+For doubts and questions use [Piazza](https://piazza.com/class/mf579hs9c8x169).
 
 ## Exams
 

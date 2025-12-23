@@ -5,5 +5,5 @@
 
 {{ blogposts english}}
 
-* [Hello world!](/blog/2025/HelloWorld) (June 22, 2025)
-* [TAP equations from Belief Propagation](/blog/2025/TAP_from_BP) (August 20, 2025)
+* [Hello world!](/blog/2025/HelloWorld) (December 22, 2025)
+* [The Random Energy Model](/blog/2025/REM1) (December 28, 2025)
