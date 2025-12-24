@@ -179,7 +179,7 @@ function rem_free_energy_theory(β::Float64)
     if β <= βc
         return - log(2) / β - β / 2
     else
-        return -√(2log(2))
+        return - √(2log(2))
     end
 end
 
@@ -202,14 +202,14 @@ end
 
 function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
                               nsamples=30,
-                              seed=-2,
+                              seed=-23,
                               outfile="rem_free_energy.png")
     βc = √(2log(2))
     βs = collect(range(βmin, βmax, length=nβ))
 
     f_sim, f_err = simulate_curve(N, βs; nsamples=nsamples, seed=seed)
 
-    p = plot(rem_free_energy_theory, xlim=(βmin, βmax);
+    plot(rem_free_energy_theory, xlim=(βmin, βmax);
         label="Theory (N → ∞)",
         linewidth=3,
         xlabel="β",
@@ -217,16 +217,15 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
         title="REM: theory vs simulation (N=$N, samples=$nsamples)"
     )
 
-    scatter!(p, βs, f_sim;
+    scatter!(βs, f_sim;
         yerror=f_err,
         label="Simulation",
         markersize=3
     )
 
-    vline!(p, [βc]; label="βc = √(2 log 2)", linestyle=:dash)
+    vline!([βc]; label="βc = √(2 log 2)", linestyle=:dash)
 
-    savefig(p, outfile)
-    #return p
+    savefig(outfile)
 end
 
 plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
@@ -235,7 +234,7 @@ plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_
 
 \output{./rem}
 
-@@center ![aaa entropy of REM](/assets/images/blog/rem_free_energy.png) @@
+@@center ![Free energy of the REM](/assets/images/blog/rem_free_energy.png) @@
 
 
 ## some more stuff
