@@ -64,7 +64,6 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
         label="Theory (N → ∞)",
         linewidth=3, color=:red,
         xlabel="β", ylabel="free energy f(β)",
-        title="REM: theory vs simulation (N=$N, samples=$nsamples)"
     )
 
     scatter!(βs, f_sim;
