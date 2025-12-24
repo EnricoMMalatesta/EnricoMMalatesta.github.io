@@ -151,91 +151,92 @@ If $\beta$ is too large (i.e. the temperature too low), the corresponding maximi
 
 
 
-```julia:./ex1
-using Random, Statistics
-using Plots
+```julia:./rem
+using Random, Statistics, Plots
 
-# ---------- Numerics ----------
+"""
+    Robust implementation of logsumexp
+"""
 logsumexp(x) = (m = maximum(x); m + log(sum(exp.(x .- m))))
 
 """
-One-sample REM free energy per spin:
-Eα ~ Normal(0, N), α=1..2^N
-fN(β) = -(1/(βN)) log Σ exp(-β Eα)
+    One-sample REM free energy
 """
-function rem_free_energy_per_spin(N::Int, β::Float64; rng=Random.default_rng())
+function rem_free_energy_sample(N::Int, β::Float64)
     M = 1 << N
     σ = sqrt(N)
-    E = σ .* randn(rng, M)
-    logZ = logsumexp(-β .* E)
-    return -(1 / (β * N)) * logZ
+    E = σ .* randn(M)
+    logZ = logsumexp(- β .* E)
+    return - logZ / (β * N)
 end
 
-# ---------- Theory (N→∞) ----------
+
+"""
+    Averaged REM free energy in the limit N → ∞
+"""
 function rem_free_energy_theory(β::Float64)
-    βc = sqrt(2 * log(2))
+    βc = √(2log(2))
     if β <= βc
-        return -(log(2)/β) - (β/2)
+        return - log(2) / β - β / 2
     else
-        return -sqrt(2 * log(2))
+        return -√(2log(2))
     end
 end
 
-# ---------- Experiment: average over disorder ----------
-function simulate_curve(N::Int, betas::Vector{Float64}; nsamples::Int=30, seed::Int=1)
-    rng = MersenneTwister(seed)
+
+function simulate_curve(N::Int, βs::Vector{Float64}; nsamples::Int=30, seed::Int=1)
+    # rng = MersenneTwister(seed)
     means = Float64[]
     stderrs = Float64[]
-    for β in betas
-        vals = [rem_free_energy_per_spin(N, β; rng=rng) for _ in 1:nsamples]
+    for β in βs
+        vals = [rem_free_energy_sample(N, β) for _ in 1:nsamples]
         push!(means, mean(vals))
-        push!(stderrs, std(vals) / sqrt(nsamples))
+        push!(stderrs, std(vals) / √nsamples)
+        println("β=$(round(β,digits=3))  f_sim=$(round(vals[1],digits=4))  f_th=$(round(rem_free_energy_theory(β),digits=4))")
     end
     return means, stderrs
 end
 
-# ---------- Plot ----------
-function plot_rem_free_energy(; N=18,
-                              betas=collect(range(0.25, 2.25, length=25)),
+
+function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
                               nsamples=30,
                               seed=1,
                               outfile="rem_free_energy.png")
-    βc = sqrt(2 * log(2))
-    f_th = [rem_free_energy_theory(β) for β in betas]
-    f_sim, f_err = simulate_curve(N, betas; nsamples=nsamples, seed=seed)
+    βc = √(2log(2))
+    βs = collect(range(βmin, βmax, length=nβ))
 
-    p = plot(betas, f_th;
-        label="Theory (N→∞)",
+    f_sim, f_err = simulate_curve(N, βs; nsamples=nsamples, seed=seed)
+
+    p = plot(rem_free_energy_theory, xlim=(βmin, βmax);
+        label="Theory (N → ∞)",
         linewidth=3,
         xlabel="β",
         ylabel="free energy f(β)",
         title="REM: theory vs simulation (N=$N, samples=$nsamples)"
     )
 
-    scatter!(p, betas, f_sim;
+    scatter!(p, βs, f_sim;
         yerror=f_err,
-        label="Simulation (mean ± s.e.)",
-        markersize=4
+        label="Simulation",
+        markersize=3
     )
 
     vline!(p, [βc]; label="βc = √(2 log 2)", linestyle=:dash)
 
     savefig(p, outfile)
-    return p
+    #return p
 end
 
 plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
 
 ```
 
-<!--\output{./ex1}-->
+\output{./rem}
 
 @@center ![aaa entropy of REM](/assets/images/blog/rem_free_energy.png) @@
 
 
 ## some more stuff
-
-$$\scal{\frac{a}{b}} \cdot \bs{a}$$
 
 For the central limit theorem we expect the sum of lognormal random variables to converge to a Gaussian distribution, So no heavy tail behavior, so annealed ansatz should be correct! But it should be wrong below the condensation, why?
 Lognormals are subexponential (heavy-tailed in the sense of convolution). Consequently, for large thresholds 

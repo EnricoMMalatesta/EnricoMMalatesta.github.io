@@ -6,7 +6,7 @@
 
 @@row
 @@container
-@@left ![Enrico M. Malatesta](/assets/images/img.jpeg) @@
+@@left ![Enrico M. Malatesta](/assets/images/img.jpeg) $\qquad$ @@
 @@
 
 

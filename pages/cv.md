@@ -42,7 +42,7 @@
 
 * Bocconi Research Excellence Award (2021 & 2023)
 
-* [Special mention](https://www.mi.infn.it/en/news-eventi-2/news/1549-enrico-maria-malatesta-and-simone-sala-received-a-special-mention-for-their-ph-d-thesis.html) from the INFN Fubini prize evaluation committee, for one of the best Theoretical Physics PhD thesis of 2018
+* [Special mention](https://www.mi.infn.it/en/news-eventi-2/news/1549-enrico-maria-malatesta-and-simone-sala-received-a-special-mention-for-their-ph-d-thesis.html) from the INFN Fubini prize evaluation committee (2018)
 
 * Scholarship “Ernesto e Iole de Maggi”, Sapienza University of Rome (2013)
 
