@@ -1,1 +1,1 @@
-nothing
+"/home/runner/work/EnricoMMalatesta.github.io/EnricoMMalatesta.github.io/_assets/images/blog/rem_free_energy.png"
