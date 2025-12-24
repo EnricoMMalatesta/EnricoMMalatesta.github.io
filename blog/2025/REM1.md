@@ -147,7 +147,7 @@ If $\beta$ is too large (i.e. the temperature too low), the corresponding maximi
 
 
 @@center ![Microcanonical entropy of REM](/blog/2025/rem_entropy.png) @@
-
+@@center *Figure 1: Microcanonical entropy of the REM* @@
 
 
 
@@ -217,7 +217,6 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
         label="Theory (N → ∞)",
         linewidth=3, color=:red,
         xlabel="β", ylabel="free energy f(β)",
-        title="REM: theory vs simulation (N=$N, samples=$nsamples)"
     )
 
     scatter!(βs, f_sim;
@@ -238,6 +237,7 @@ plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_
 \output{./rem}
 
 @@center ![Free energy of the REM](/assets/images/blog/rem_free_energy.png) @@
+@@center *Figure 2: Theory vs Simulation of the REM (N=18, number of samples=30)* @@
 
 
 ## some more stuff
