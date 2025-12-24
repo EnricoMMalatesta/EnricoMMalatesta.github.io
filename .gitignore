@@ -4,5 +4,5 @@ node_modules/
 package-lock.json
 
 ./pages/scriptjulia.md
-./assets/images/pages/background/1*png
-./assets/images/pages/background/2*png
+./assets/images/pages/background/_1*png
+./assets/images/pages/background/_2*png
