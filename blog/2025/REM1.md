@@ -237,7 +237,7 @@ plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_
 
 
 ## some more stuff
-
+aa
 For the central limit theorem we expect the sum of lognormal random variables to converge to a Gaussian distribution, So no heavy tail behavior, so annealed ansatz should be correct! But it should be wrong below the condensation, why?
 Lognormals are subexponential (heavy-tailed in the sense of convolution). Consequently, for large thresholds 
 $$
