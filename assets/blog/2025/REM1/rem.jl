@@ -31,8 +31,10 @@ function rem_free_energy_theory(β::Float64)
 end
 
 
-function simulate_curve(N::Int, βs::Vector{Float64}; nsamples::Int=30, seed::Int=1)
-    # rng = MersenneTwister(seed)
+function simulate_curve(N::Int, βs::Vector{Float64}; nsamples::Int=30, seed::Int=23)
+    if seed > 0
+        Random.seed!(seed);
+    end
     means = Float64[]
     stderrs = Float64[]
     for β in βs
@@ -47,7 +49,7 @@ end
 
 function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
                               nsamples=30,
-                              seed=1,
+                              seed=-2,
                               outfile="rem_free_energy.png")
     βc = √(2log(2))
     βs = collect(range(βmin, βmax, length=nβ))
