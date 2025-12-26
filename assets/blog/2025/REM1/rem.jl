@@ -60,7 +60,7 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
 
     f_sim, f_err = simulate_curve(N, βs; nsamples=nsamples, seed=seed)
 
-    plot(rem_free_energy_theory, xlim=(βmin, βmax);
+    plot(rem_free_energy_theory, xlim=(βmin-0.05, βmax);
         label="Theory (N → ∞)",
         linewidth=3, color=:red,
         xlabel="β", ylabel="free energy f(β)",
@@ -72,9 +72,9 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
         markersize=3.5
     )
 
-    vline!([βc]; label=L"β_c"*"= √(2 log 2)", linestyle=:dash, linewidth=3, color=:green)
+    vline!([βc]; label=L"\beta=\beta_c", linestyle=:dash, linewidth=3, color=:green)
 
     savefig(outfile)
 end
 
-plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
+plot_rem_free_energy(N=18, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
