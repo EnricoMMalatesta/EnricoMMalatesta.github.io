@@ -4,11 +4,20 @@
 # Welcome to my web page!
 
 
+<!--@@row
+@@container
+@@left <img src="/assets/images/img.jpeg"
+           alt="Enrico M. Malatesta"
+           style="width:180px; height:auto; margin-right:1rem;" />
+@@
+-->
+
 @@row
 @@container
-@@left ![Enrico M. Malatesta](/assets/images/img.jpeg) $\;\;\qquad$ @@
+@@left
+![Enrico M. Malatesta](/assets/images/img.jpeg) $\qquad \quad$
 @@
-
+@@
 
 I am an Assistant Professor at the [Computing Sciences Department](https://cs.unibocconi.eu/) at [Bocconi University](https://www.unibocconi.it/it) in Milan.
 

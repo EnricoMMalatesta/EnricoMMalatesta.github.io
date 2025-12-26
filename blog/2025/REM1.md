@@ -11,7 +11,7 @@
 
 
 
-# The Random Energy Model
+# The Random Energy Model -- Part I
 
 ## Main definitions
 The Random Energy Model (REM) is probably the easiest disordered system model with a non-trivial (spin glass) behaviour. It has been introduced and solved by B. Derrida \citep{derrida1980}. It consists in having $2^N$ random independent energy levels $E_i$ each one being extracted from a Gaussian distribution, which I take for simplicity to be having zero mean and variance $N J$
@@ -52,7 +52,6 @@ $$
 \lim_{N\to \infty} \mathrm{Pr} \left[ \left| f_N - \mathbb{E} f_N  \right| > \epsilon \right] = 0
 $$
 where I have denoted by $\mathbb{E}[\bullet]$ the average over disorder given in \eqref{eq::disorder}. An observable satisfying such property is called *self-averaging* in statistical physics; this is equivalent to the concept of *concentration* of a random variable in math. This means that $f_N$ does not  appreciably fluctuate from sample to sample when $N$ is large. 
-
 
 We are interested in studying the properties of the Boltzmann-Gibbs distribution in the limit $N\to\infty$. 
 
@@ -103,11 +102,11 @@ In this range the average number of energy levels with energy $e$, is exponentia
 
 #### Self averaging property of $\Omega_N(e)$
 
-We want to now show that in the large $N$ limit $\Omega_N(e)$ concentrates around its average value. This can be shown by computing its variance:
+I want to now show that in the large $N$ limit $\Omega_N(e)$ concentrates around its average value. This can be shown by computing its variance:
 $$
 \mathrm{Var}[\Omega_N(e)] = 2^N p_N(e) (1-p_N(e)) = \mathbb{E}[\Omega_N(e)] - O(e^{-N})
 $$
-where in the last step we have neglected exponentially small corrections in $N$. A simple application of Chebyshev's inequality gives $\forall \epsilon>0$
+where in the last step I have neglected exponentially small corrections in $N$. A simple application of Chebyshev's inequality gives $\forall \epsilon>0$
 $$
 \mathrm{Pr}\left[\left| \frac{\Omega_N(e)}{\mathbb{E} [\Omega_N(e)]} - 1 \right| \ge \epsilon  \right] \le \frac{\mathrm{Var}[\Omega_N(e)]}{\epsilon^2 \, \mathbb{E}[\Omega_N(e)]^2} \le \frac{1}{\epsilon^2 \, \mathbb{E}[\Omega_N(e)]} \overset{N\to \infty}{\longrightarrow} 0
 $$
@@ -118,7 +117,7 @@ This implies that average microcanonical entropy is given by
 \begin{equation}
 s(e) = \lim_{N\to \infty} s_N(e) = \lim_{N\to \infty} \frac{1}{N} \ln \mathbb{E}  [\Omega_N(e)] = \left\{
 \begin{align*}
-    &\ln 2 - \frac{J e^2}{2}\,, & |e| \le e_0 \\
+    &\ln 2 - \frac{e^2}{2 J}\,, & |e| \le e_0 \\
     & 0\,, & |e| > e_0
 \end{align*}
 \right.
@@ -127,29 +126,55 @@ Note that this expression does not depend on the coarse-graining of the energy $
 
 
 ## The free energy
-Having found the microcanonical entropy, we now wish to find the free energy of the model which requires the inverse temperature $\beta$ to be fixed. This can be obtained by the so called *Legendre transform* which is the way one passes from one ensemble to another in statistical mechanics. For the reader not familiar with changes of ensemble this is actually obtained by grouping configurations by their energy density $e$ and then integrating over all possible (allowed) energies $e$. Sending the coarse-graining $\Delta E$ to zero (after the limit $N\to \infty$) one finds
+Having found the microcanonical entropy, I now wish to find the free energy of the model which requires the inverse temperature $\beta$ to be fixed. This can be obtained by the so called *Legendre transform* which is the way one passes from one ensemble to another in statistical mechanics. For the reader not familiar with changes of ensemble this is actually obtained by grouping configurations by their energy density $e$ and then integrating over all possible (allowed) energies $e$. Sending the coarse-graining $\Delta E$ to zero (after the limit $N\to \infty$) one finds
 $$
 Z_N(\beta) = \sum_{i=1}^{2^N} e^{- \beta N e_i} = \int d e \,  \sum_{i=1}^{2^N} \delta(e-e_i) e^{- \beta N e} = \int_{-e_0}^{e_0} d e \, e^{N (s(e) - \beta e)} \,.
 $$
 For large $N$ the integral is dominated by the maximum of the argument of the exponential (Laplace's method), that is
 $$
+\label{eq::max}
 f(\beta) \equiv \lim_{N\to\infty} f_N(\beta) = -\frac{1}{\beta} \, \max_{e \in [-e_0, e_0]} \left[s(e) - \beta e\right] \,.
 $$
 The maximization imposes
 $$
-\left. \frac{d s(e)}{d e}\right|_{e_\star} = - J e_\star = \beta \; ⟹ \; e_\star = - \frac{\beta}{J} \,.
+\label{eq::estar}
+\left. \frac{d s(e)}{d e}\right|_{e_\star} = - \frac{e_\star}{J} = \beta \; ⟹ \; e_\star = - \beta J \,.
 $$
 This is valid only if $e_\star$ lies in the interval of allowed energy densities $[-e_0, e_0]$. The corresponding free energy being
 $$
-f(\beta) = -\frac{1}{\beta} \left( \ln 2 - \frac{\beta^2}{2J} + \frac{\beta^2}{J}\right) = -\frac{\ln 2 }{\beta} - \frac{\beta}{2J}
+f(\beta) = -\frac{1}{\beta} \left( \ln 2 - \frac{\beta^2 J}{2} + \beta^2 J\right) = -\frac{\ln 2 }{\beta} - \frac{\beta J}{2}
 $$
-If $\beta$ is too large (i.e. the temperature too low), the corresponding maximizer lies outside the allowed energy interval. 
-
-
 @@center ![Microcanonical entropy of REM](/blog/2025/rem_entropy.png) @@
-@@center *Figure 1: Microcanonical entropy of the REM* @@
+@@center *Figure 1: Microcanonical entropy $s(e)$ of the REM (with $J=1$). In violet, green and light blue are straight lines tangent to $s(e)$ such that their slope are equal to respectively $\beta = \beta_c,\, 0.6,\, 0.2$. The corresponding energy $e_\star$ satisfies equation \eqref{eq::estar}.* @@
 
+If $\beta$ is too large (i.e. the temperature too low), the maximum of \eqref{eq::max} is given by $e_\star = -e_0$. This holds when 
+$$
+\beta \ge \beta_c \equiv \frac{e_0}{J} = \sqrt{\frac{2 \ln 2}{J}} \,.
+$$
+In this regime the free energy is constant. Summarizing the free energy of the REM is
+$$
+f(\beta) = \lim_{N\to\infty} f_N(\beta) = 
+\begin{cases}
+-\frac{\ln 2 }{\beta} - \frac{\beta J}{2} & \; \mathrm{if} \;\beta< \beta_c \\
+- \sqrt{2 J \ln 2} & \; \mathrm{if} \; \beta \ge \beta_c \,.
+\end{cases}
+$$
+This shows that at $\beta = \beta_c$ the model exhibits a second order *phase transition* as the derivative of $f(\beta)$ is continuous at $\beta = \beta_c$, but its second order is not. This phase transition has different names in the literature: ''*freezing*'', ''*condensation*'' and ''*random first order*'' (RFOT) phase transition. The first two names refers to the fact that the system ''freezes'' or ''condenses'' into the states having lowest available energies, i.e. $E_i \simeq - e_0 N$. 
 
+The last name refers to the fact that while the transition is of second order in the classical sense, it discontinuous in terms of the order parameter. We have not introduced the order parameter in the REM model, but we will probably analyze it in a later post. Here I only anticipate the fact that at $\beta = \beta_c$ the Boltzmann-Gibbs measure in eq. \eqref{eq::Boltzmann} starts being dominated by subexponential number of configurations. This can be indeed verified by computing the entropy of the REM as a function of the temperature
+$$
+s(\beta) = \beta^2 \frac{\partial f}{\partial \beta} = 
+\begin{cases}
+\ln 2 - \frac{\beta^2 J}{2} & \; \mathrm{if} \;\beta< \beta_c \\
+0 & \; \mathrm{if} \; \beta \ge \beta_c \,.
+\end{cases}
+$$
+
+<!--### Quenched vs annealed average -->
+
+### Numerical checks
+
+Below I show a simple code that computes numerically the quenched average of the free energy of the REM by sampling independent Gaussian energy levels (with $J=1$). 
 
 ```julia:./rem
 using Random, Statistics, Plots, LaTeXStrings
@@ -213,7 +238,7 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
 
     f_sim, f_err = simulate_curve(N, βs; nsamples=nsamples, seed=seed)
 
-    plot(rem_free_energy_theory, xlim=(βmin, βmax);
+    plot(rem_free_energy_theory, xlim=(βmin-0.05, βmax);
         label="Theory (N → ∞)",
         linewidth=3, color=:red,
         xlabel="β", ylabel="free energy f(β)",
@@ -225,14 +250,16 @@ function plot_rem_free_energy(; N=18, βmin = 0.25, βmax = 2.25, nβ=25,
         markersize=3.5
     )
 
-    vline!([βc]; label=L"β_c"*"= √(2 log 2)", linestyle=:dash, linewidth=3, color=:green)
+    vline!([βc]; label=L"\beta=\beta_c", linestyle=:dash, linewidth=3, color=:green)
 
     savefig(outfile)
 end
 
-plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
+plot_rem_free_energy(N=18, nsamples=30, outfile="./_assets/images/blog/rem_free_energy.png")
 
 ```
+
+The results are summarized in the figure below. The numerical results reproduce the exact $N\to \infty$ free-energy curve and its freezing transition at $\beta=\sqrt{2 J \ln 2}$.
 
 \output{./rem}
 
@@ -240,7 +267,7 @@ plot_rem_free_energy(N=16, nsamples=30, outfile="./_assets/images/blog/rem_free_
 @@center *Figure 2: Theory vs Simulation of the REM (N=18, number of samples=30)* @@
 
 
-## some more stuff
+<!--## some more stuff
 aa
 For the central limit theorem we expect the sum of lognormal random variables to converge to a Gaussian distribution, So no heavy tail behavior, so annealed ansatz should be correct! But it should be wrong below the condensation, why?
 Lognormals are subexponential (heavy-tailed in the sense of convolution). Consequently, for large thresholds 
@@ -248,7 +275,7 @@ $$
 P(Z_N < x) = 2^N P(E_1 < x)
 $$
 i.e., the sum’s far left tail is dominated by the single least summand, not by Gaussian aggregation. So a normal approximation is good for the body of the distribution but poor in the extreme left (and right) tail.
-
+-->
 
 
 
