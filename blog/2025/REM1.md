@@ -1,6 +1,6 @@
 @def title = "The Random Energy Model"
 @def authors = "E. Malatesta"
-@def published = "28 December 2025"
+@def published = "**Could be worse - 28 December 2025"
 @def pt_lang = false
 @def rss_pubdate = Date(2025, 12, 28)
 @def rss = "TAP"
@@ -9,7 +9,7 @@
 {{ published }} | **{{ authors }}**
 
 
-
+Could be
 
 # The Random Energy Model -- Part I
 
