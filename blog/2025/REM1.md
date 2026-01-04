@@ -1,6 +1,11 @@
+[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics in statistical physics, spin glasses and optimization 
+
+# The Random Energy Model -- Part I
+
+
 @def title = "The Random Energy Model"
 @def authors = "E. Malatesta"
-@def published = "**Could be worse - 28 December 2025"
+@def published = "28 December 2025"
 @def pt_lang = false
 @def rss_pubdate = Date(2025, 12, 28)
 @def rss = "TAP"
@@ -8,10 +13,6 @@
 
 {{ published }} | **{{ authors }}**
 
-
-Could be
-
-# The Random Energy Model -- Part I
 
 ## Main definitions
 The Random Energy Model (REM) is probably the easiest disordered system model with a non-trivial (spin glass) behaviour. It has been introduced and solved by B. Derrida \citep{derrida1980}. It consists in having $2^N$ random independent energy levels $E_i$ each one being extracted from a Gaussian distribution, which I take for simplicity to be having zero mean and variance $N J$
@@ -301,3 +302,4 @@ $$
 
 [1] \biblabel{derrida1980}{Derrida (1980)} Derrida, Bernard, "Random-energy model: Limit of a family of disordered models", Physical Review Letters 45.2 (1980): 79.
 
+{{ blogcomments }}

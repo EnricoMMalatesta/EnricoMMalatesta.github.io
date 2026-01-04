@@ -1,8 +1,11 @@
+[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics in statistical physics, spin glasses and optimization 
+
 # Hello Word!
+
 
 @def title = "Hello World!"
 @def authors = "E. Malatesta"
-@def published = "22 December 2025"
+@def published = "10 September 2025"
 @def pt_lang = false
 @def rss_pubdate = Date(2025, 12, 22)
 @def rss = "Hello World!"
