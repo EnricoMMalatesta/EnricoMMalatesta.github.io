@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Comment feature enabled&#33;  ]]>
+  </title>
+  <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/comments_test/index.html </link>
+  <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/comments_test/index.html </guid>
+  <description>
+    <![CDATA[  Comments  ]]>
+  </description>  
+    
+  <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Enrico M. Malatesta</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  The Random Energy Model  ]]>
   </title>
   <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2025/REM1/index.html </link>
@@ -48,25 +67,6 @@
   <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2025/HelloWorld/index.html </guid>
   <description>
     <![CDATA[  Introductory post in my blog  ]]>
-  </description>  
-    
-  <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Enrico M. Malatesta</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Comments&#33;  ]]>
-  </title>
-  <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/comments_test/index.html </link>
-  <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/comments_test/index.html </guid>
-  <description>
-    <![CDATA[  Comments  ]]>
   </description>  
     
   <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>  
