@@ -15,7 +15,7 @@
 @@row
 @@container
 @@left
-![Enrico M. Malatesta](/assets/images/img.jpeg) $\qquad \quad$
+![Enrico M. Malatesta](/assets/images/img.jpeg) $\qquad \qquad$
 @@
 @@
 
