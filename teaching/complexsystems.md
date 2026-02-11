@@ -2,7 +2,7 @@
 
 ## Course Syllabus
 
-* **Introduction To Statistical Physics**. Microcanonical and Canonical ensembles, thermodynamic limit. The Curie-Weiss model: phase transitions and critical phenomena, ergodicity breaking. Markov Chain Monte-Carlo: Markov processes, detailed balance condition, Metropolis-Hastings Algorithm and application to the Curie-Weiss model. The ferromagnetic ising and spherical $p$-spin models. Energy Based Models and Contrastive Divergence.
+* **Introduction To Statistical Physics**. Microcanonical and Canonical ensembles, thermodynamic limit. The Curie-Weiss model: phase transitions and critical phenomena, ergodicity breaking. Markov Chain Monte-Carlo: Markov processes, detailed balance condition, Metropolis-Hastings Algorithm and application to the Curie-Weiss model. Energy Based Models and Contrastive Divergence.
 * **Intro to Graph theory**. Main definitions appearing in graph theory. Random Graphs: Erdős-Renyi and random regular graph ensembles. Locally tree-like property. Percolation and Giant Component, $K$-core, leaf removal, ODE analysis. 
 * **The Belief Propagation Algorithm**. Factor Graphs. Derivation of Belief Propagation on a tree graphical model. Applications: Ising on sparse graph, graph coloring, Stochastic Block model. Algorithmic implementations. Population Dynamics algorithm.
 * **Statistical Physics of Learning**. Perceptron Models with binary and continuous weights.  Teacher-Student and Storage settings. Simple geometric properties of the solution space. Concept of "self-averaging" quantity. Partition function and Gardner's volume. Replica method. Order parameters and their physical interpretation. 

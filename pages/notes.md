@@ -6,6 +6,11 @@
   Based on a set of lectures done at the "School of the Italian Society of Statistical Physics", IMT, Lucca, 2023. They can be also found on ArXiv at the following [*link*](https://arxiv.org/pdf/2309.09240).
 
 
+* [Lecture notes on Monte Carlo Methods](/assets/notes/NotesMCMethods.pdf)
+  
+  Lecture notes of the course ``Methods and Data Analytics for Risk Assessment''. 
+
+
 * [Lecture notes on relativistic quantum mechanics](/assets/notes/MQR.pdf) (in Italian)
   
     Klein–Gordon and Dirac fields; electromagnetic field, gauge invariance and quantization; perturbative QED with basic scattering processes; and Weyl/Dirac neutrino theory. Taken during M. Testa’s course in the Master in Theoretical Physics at Sapienza University of Rome. 
