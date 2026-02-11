@@ -8,7 +8,7 @@
 
 * [Lecture notes on Monte Carlo Methods](/assets/notes/NotesMCMethods.pdf)
   
-  Lecture notes of the course ``Methods and Data Analytics for Risk Assessment''. 
+  Lecture notes for part of the course ''Methods and Data Analytics for Risk Assessment''. 
 
 
 * [Lecture notes on relativistic quantum mechanics](/assets/notes/MQR.pdf) (in Italian)
