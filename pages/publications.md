@@ -5,9 +5,9 @@ See also my [Google Scholar](https://scholar.google.it/citations?user=TJF5CosAAA
 
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://arxiv.org/abs/2506.05197) (2025).
 - J. Barbier, F. Gerace, A. Ingrosso, C. Lauditi, E. M. Malatesta, G. Nwemadji, R. Pérez Ortiz, [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629) (2025).
-- M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Rare Overlap Gap and Computational Thresholds in the Square Wave Perceptron*](https://arxiv.org/abs/2506.05197) (2025).
-- P. Charbonneau, G. Folena, E. M. Malatesta, T. Rizzo, F. Zamponi, [*Rare Trajectories in a Prototypical Mean-field Disordered Model: Insights into Landscape and Instantons*](https://arxiv.org/abs/2505.00107) (2025).
-- A. Zambon, E. M. Malatesta, G. Tiana, R. Zecchina, [*Sampling the space of solutions of an artificial neural network*](https://arxiv.org/abs/2503.08266) (2025).
+- M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Rare Overlap Gap and Computational Thresholds in the Square Wave Perceptron*](https://arxiv.org/abs/2506.05197) J. Stat. Mech. (2025) 123303.
+- P. Charbonneau, G. Folena, E. M. Malatesta, T. Rizzo, F. Zamponi, [*Rare Trajectories in a Prototypical Mean-field Disordered Model: Insights into Landscape and Instantons*](https://arxiv.org/abs/2505.00107) (2025). Code available [here](https://github.com/EnricoMMalatesta/Dynamical_Potential);
+- A. Zambon, E. M. Malatesta, G. Tiana, R. Zecchina, [*Sampling the space of solutions of an artificial neural network*](https://arxiv.org/abs/2503.08266) Phys. Rev. E 112, 045303 (2025).
 - B. L. Annesi, E. M. Malatesta, F. Zamponi, [*Exact full-RSB SAT/UNSAT transition in infinitely wide two-layer neural networks*](https://scipost.org/SciPostPhys.18.4.118), SciPost Phys. **18**, 118 (2025).
 - S. Kalaj, C. Lauditi, G. Perugini, C. Lucibello, E. M. Malatesta, M. Negri, [*Random Features Hopfield Networks generalize retrieval to previously unseen examples*](https://arxiv.org/pdf/2407.05658) (2024).
 - C. Lauditi, E. M. Malatesta, F. Pittorino, C. Baldassi, N. Brunel, R. Zecchina, [*Impact of dendritic non-linearities on the computational capabilities of neurons*](https://doi.org/10.1103/d7f1-xc8q), PRX Life **3**, 033003 (2025).
