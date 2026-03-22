@@ -3,12 +3,12 @@
 # The Random Energy Model -- Part I
 
 
-@def title = "The Random Energy Model"
+@def title = "The Random Energy Model -- Part I"
 @def authors = "E. Malatesta"
 @def published = "28 December 2025"
 @def pt_lang = false
 @def rss_pubdate = Date(2025, 12, 28)
-@def rss = "TAP"
+@def rss = "REM1"
 @def rss_description = """REM part 1"""
 
 {{ published }} | **{{ authors }}**
@@ -81,11 +81,11 @@ Note that $s_N(e)$ is itself a random variable, being dependent on the particula
 
 #### Physical range of energies of the REM
 
-Markov's inequality bounds the probability that the a non-negative random variable is strictly positive by its average value. In our case the random variable $\Omega_N(e)$ is also integer valued, so one finds the first moment bound by 
+*Markov's inequality* bounds the probability that the a non-negative random variable is strictly positive by its average value. In our case the random variable $\Omega_N(e)$ is also integer valued, so one finds 
 $$
 \mathrm{Pr}[\Omega_N(e) > 0] = \sum_{n>0} \mathrm{Pr}[\Omega_N(e) = n] \le \sum_{n\ge 0} n \, \mathrm{Pr}[\Omega_N(e) = n] = \mathbb{E}[\Omega_N(e)]
 $$
-Note that $\Omega_N(e)$ is a Bernoulli random variable $\Omega_N(e) \sim B(2^N, p_N(e))$, where
+This is also called *first moment bound*. Note that $\Omega_N(e)$ is a Bernoulli random variable $\Omega_N(e) \sim B(2^N, p_N(e))$, where
 $$
 p_N(e) = \int_{Ne}^{N e + \Delta E } dE \rho_N(E) \simeq \rho_N(Ne) \Delta E
 $$

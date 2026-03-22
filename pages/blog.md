@@ -13,3 +13,4 @@ Blog posts:
 * [Hello world!](/blog/2025/HelloWorld) (September 10, 2025)
 * [The Random Energy Model -- Part I](/blog/2025/REM1) (December 28, 2025)
 * [Comment feature enabled!](/blog/2026/comments_test) (January 04, 2026)
+* [The Random Energy Model -- Part II](/blog/2026/REM2) (March 15, 2026)
