@@ -23,6 +23,44 @@
 
 <item>
   <title>
+    <![CDATA[  The Random Energy Model – Part II  ]]>
+  </title>
+  <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/REM2/index.html </link>
+  <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/REM2/index.html </guid>
+  <description>
+    <![CDATA[  REM part 2  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Enrico M. Malatesta</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Random Energy Model – Part III  ]]>
+  </title>
+  <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/REM3/index.html </link>
+  <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/REM3/index.html </guid>
+  <description>
+    <![CDATA[  REM part 3  ]]>
+  </description>  
+    
+  <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Enrico M. Malatesta</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Comment feature enabled&#33;  ]]>
   </title>
   <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/comments_test/index.html </link>
@@ -42,7 +80,7 @@
 
 <item>
   <title>
-    <![CDATA[  The Random Energy Model  ]]>
+    <![CDATA[  The Random Energy Model – Part I  ]]>
   </title>
   <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2025/REM1/index.html </link>
   <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2025/REM1/index.html </guid>
