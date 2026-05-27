@@ -176,9 +176,11 @@ The normalization can be computed using the [beta function](https://en.wikipedia
 $$
 \label{eq::P(w)}
 \boxed{
-P(w)=\frac{w^{-m-1}(1-w)^{m-1}}{\Gamma(m)\Gamma(1-m)}\,,
-\qquad
-m=\frac{T}{T_c} \,.}
+    \begin{split}
+P(w)&=\frac{w^{-m-1}(1-w)^{m-1}}{\Gamma(m)\Gamma(1-m)}\,,\\
+m&=\frac{T}{T_c} \,.
+\end{split}
+}
 $$
 This is the main result. The expression of $P(w)$ gives a very concrete picture of the low-temperature phase of the REM. First, notice that $P(w)$ diverges near $w\to 0$ as
 $$

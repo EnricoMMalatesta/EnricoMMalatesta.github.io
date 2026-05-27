@@ -4,7 +4,7 @@
 See also my [Google Scholar](https://scholar.google.it/citations?user=TJF5CosAAAAJ&hl=it).
 
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://arxiv.org/abs/2506.05197) (2025).
-- J. Barbier, F. Gerace, A. Ingrosso, C. Lauditi, E. M. Malatesta, G. Nwemadji, R. Pérez Ortiz, [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629) (2025).
+- J. Barbier, F. Gerace, A. Ingrosso, C. Lauditi, E. M. Malatesta, G. Nwemadji, R. Pérez Ortiz, [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629), J. Stat. Mech. (2026) 043405.
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Rare Overlap Gap and Computational Thresholds in the Square Wave Perceptron*](https://arxiv.org/abs/2506.05197) J. Stat. Mech. (2025) 123303.
 - P. Charbonneau, G. Folena, E. M. Malatesta, T. Rizzo, F. Zamponi, [*Rare Trajectories in a Prototypical Mean-field Disordered Model: Insights into Landscape and Instantons*](https://arxiv.org/abs/2505.00107) Phys. Rev. E **113**, 034107 (2026). Code available [here](https://github.com/EnricoMMalatesta/Dynamical_Potential).
 - A. Zambon, E. M. Malatesta, G. Tiana, R. Zecchina, [*Sampling the space of solutions of an artificial neural network*](https://arxiv.org/abs/2503.08266) Phys. Rev. E **112**, 045303 (2025).

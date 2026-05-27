@@ -19,7 +19,7 @@ Reference Books:
 
 
 Additional Lecture Notes:
-* [Introduction to Statistical Physics](/assets/teaching/complexsystems/notes_intro_statphys_v0.3.pdf)
+* [Introduction to Statistical Physics](/assets/teaching/complexsystems/notes_intro_statphys_v1.2.pdf)
 * [Statistical Mechanics of Artificial Neural Networks](/assets/teaching/complexsystems/Lecture_notes_perceptrons_v1.0.pdf)
 * [BP-based algorithms for perceptron models](/assets/teaching/complexsystems/Lecture_notes_perceptrons_BP_v1.0.pdf)
 
@@ -28,6 +28,6 @@ Python notebooks will be also provided during the course.
 
 ## Exam
 
-20% of the final grade given by individual assignments. The students will be required to derive and implement in a specific setting the generic algorithms discussed during the course.
+8 points out of 30 of the final grade come from individual assignments. The students will be required to derive and implement in a specific setting the generic algorithms discussed during the course.
 
-80% of the final grade given by oral exam. Understanding of all the topics covered in the course will be evaluated. Besides verbally answering questions, students will be asked to reproduce part of calculations seen during the course using pen and paper or a whiteboard.
+The rest of the points come from an oral exam. Understanding of all the topics covered in the course will be evaluated. Besides verbally answering questions, students will be asked to reproduce part of calculations seen during the course using pen and paper or a whiteboard.

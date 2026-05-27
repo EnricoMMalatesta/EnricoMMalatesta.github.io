@@ -23,6 +23,28 @@ Applying the replica method to the REM is not merely a matter of rederiving know
 
 ## Main definitions
 
+$$
+Z^n = \sum_{i_1, \dots, i_n = 1}^{2^N} e^{- \beta \sum_{a = 1}^n E_{i_a}} = \sum_{i_1, \dots, i_n = 1}^{2^N} e^{- \beta \sum_k E_k \sum_{a = 1}^n \delta_{k i_a}}
+$$
+
+$$
+\mathbb{E}\left[ Z^n \right] = \sum_{i_1, \dots, i_n = 1}^{2^N} \prod_{k} e^{- \frac{N J \beta^2}{2} \left(\sum_{a = 1}^n \delta_{k i_a}\right)^2} = \sum_{i_1, \dots, i_n = 1}^{2^N} e^{- \frac{N J \beta^2}{2} \sum_{a, b = 1}^n \delta_{i_a i_b} }
+$$
+
+
+Imposing
+$$
+q_{ab} = \delta_{i_a i_b}
+$$
+Denote by $\mathcal{M}_n$ the set of symmetric matrices having diagonal 1 and elements either 0 or 1. We can therefore rewrite the sum over the configurations $i_1\,, \dots \,, i_n \in [2^N]$ as the sum over the averaged replicated partition function as the sum over $q\in \mathcal{M}_n$ as follows
+$$
+\mathbb{E}\left[ Z^n \right] = \sum_{q \in \mathcal{M}_n} \mathcal{N}_N(q) \, e^{- \frac{N J \beta^2}{2} \sum_{a, b = 1}^n q_{ab} }
+$$
+where
+$$
+\mathcal{N}_N(q) \equiv \sum_{i_1, \dots, i_n = 1}^{2^N} \prod_{a<b}\delta(q_{ab} - \delta_{i_a i_b})
+$$
+counts the possible arrangements of indices $i_1\,, \dots \,, i_n \in [2^N]$ such that $q_{ab} = \delta_{i_a i_b}$. 
 
 
 
