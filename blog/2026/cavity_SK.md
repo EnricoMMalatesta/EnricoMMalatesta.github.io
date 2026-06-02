@@ -1,6 +1,8 @@
 [**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics in statistical physics, spin glasses, optimization and average case hardness
 
-# The Replica solution of the Sherrington-Kirkpatrick model without replicas
+# The Sherrington-Kirkpatrick Model via the Cavity Method
+
+<!-- The Replica solution of the Sherrington-Kirkpatrick model without replicas -->
 
 
 @def title = "The Sherrington-Kirkpatrick Model via the Cavity Method"
