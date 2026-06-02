@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  The Sherrington-Kirkpatrick Model via the Cavity Method  ]]>
+  </title>
+  <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/cavity_SK/index.html </link>
+  <guid> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/cavity_SK/index.html </guid>
+  <description>
+    <![CDATA[  Cavity derivation of the replica-symmetric saddle point equations of the SK model  ]]>
+  </description>  
+    
+  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Enrico M. Malatesta</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  The Random Energy Model – Part II  ]]>
   </title>
   <link> https://tlienart.github.io/FranklinTemplates.jl/blog/2026/REM2/index.html </link>
