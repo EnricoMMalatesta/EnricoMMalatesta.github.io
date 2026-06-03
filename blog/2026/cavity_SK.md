@@ -102,10 +102,10 @@ F_{N+1}-F_N
 2\cosh\!\left(\beta h^{\rm cav}_0(\sigma)\right)
 \right\rangle_N.
 $$
-This equation is exact for the cavity Hamiltonian. The problem has now been reduced to understanding the distribution of the random field $h_0(\sigma)$ under the Gibbs measure of the *old $N$ spin system* :
+This equation is exact for the cavity Hamiltonian. The problem has now been reduced to understanding the distribution of the random field $h^{\rm cav}_0(\sigma)$ under the Gibbs measure of the *old $N$ spin system* :
 $$
 \begin{split}
-P(h)
+P^{\rm cav}(h)
 &\equiv  \left\langle
  \delta(h - h^{\rm cav}_0(\sigma))
 \right\rangle_N \\ 
@@ -229,7 +229,7 @@ having denoted by $Dz$ a standard normal Gaussian measure
 $$
 D z \equiv \frac{e^{-z^2/2}}{\sqrt{2\pi}}\, d z.
 $$
-The first term in \eqref{eq::DeltaFalpha} is entropic: even inside a state the cavity field still fluctuates around its state-dependent mean. The second term is the ordinary two-state contribution of the added spin in the effective field $h_\alpha$.
+The first term in \eqref{eq::DeltaFalpha} is entropic: even inside a state the cavity field still fluctuates around its state-dependent mean. The second term is the ordinary two-state contribution of the added spin in the effective mean cavity field $u_0^\alpha$.
 
 
 ### Cavity vs local field
@@ -413,7 +413,7 @@ u_0\sim\mathcal{N}(0,q),
 \qquad
 q=\frac{1}{N}\sum_{k=1}^N m_{k\to0}^2.
 $$
-This statement concerns the mean cavity field $u_0$, not the instantaneous cavity field $h_0^{\rm cav}(\sigma)$. Inside the state, the latter has the broader distribution
+This statement concerns the mean cavity field $u_0$, not the instantaneous cavity field $h_0^{\rm cav}(\sigma)$. Inside the state, we remind the latter has the distribution
 $$
 h_0^{\rm cav}(\sigma)=u_0+\sqrt{1-q}\,z.
 $$
