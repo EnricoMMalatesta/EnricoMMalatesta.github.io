@@ -3,7 +3,8 @@
 
 See also my [Google Scholar](https://scholar.google.it/citations?user=TJF5CosAAAAJ&hl=it).
 
-- M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://arxiv.org/abs/2506.05197) (2025).
+- M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Collision Resistance of Single-Layer Neural Nets*](https://arxiv.org/html/2606.03807v1), see also [here](https://eprint.iacr.org/2026/1143) (2026)
+- M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://journals.aps.org/prx/pdf/10.1103/6shh-9h5m),  Phys. Rev. X **16**, 021051 (2026).
 - J. Barbier, F. Gerace, A. Ingrosso, C. Lauditi, E. M. Malatesta, G. Nwemadji, R. Pérez Ortiz, [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629), J. Stat. Mech. (2026) 043405.
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Rare Overlap Gap and Computational Thresholds in the Square Wave Perceptron*](https://arxiv.org/abs/2506.05197) J. Stat. Mech. (2025) 123303.
 - P. Charbonneau, G. Folena, E. M. Malatesta, T. Rizzo, F. Zamponi, [*Rare Trajectories in a Prototypical Mean-field Disordered Model: Insights into Landscape and Instantons*](https://arxiv.org/abs/2505.00107) Phys. Rev. E **113**, 034107 (2026). Code available [here](https://github.com/EnricoMMalatesta/Dynamical_Potential).
