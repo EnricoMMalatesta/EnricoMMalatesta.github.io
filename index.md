@@ -1,3 +1,4 @@
+@def canonical = "https://enricommalatesta.github.io/"
 @def title = "Enrico M. Malatesta"
 @def tags = ["syntax", "code"]
 
@@ -33,11 +34,9 @@ For more information see my [publications](/pages/publications/) and [CV](/pages
 
 <!-- I am also interested in exploiting this knowledge to explain the dynamics of simple algorithms and to design new algorithmic paradigms. -->
 
-&nbsp;
 
-&nbsp;
+
 $\\$
 @@
 
 &nbsp;
-

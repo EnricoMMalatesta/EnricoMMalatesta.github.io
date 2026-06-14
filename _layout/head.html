@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Personal academic website of Enrico M. Malatesta, Assistant Professor at Bocconi University. Research in statistical physics, machine learning, optimization, and high-dimensional statistics.">
+
   {{if hasmath}} {{insert head_katex.html }}     {{end}}
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   <link rel="stylesheet" href="/css/franklin.css">
   <link rel="stylesheet" href="/css/basic.css">
   <link rel="icon" href="/assets/majesty.png">
+  {{isdef canonical}} <link rel="canonical" href="{{fill canonical}}"> {{end}}
+  {{isdef title}} <title>{{fill title}}</title>  {{end}}
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
 </head>
 <body>

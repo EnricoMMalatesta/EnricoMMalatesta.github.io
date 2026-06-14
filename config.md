@@ -20,9 +20,9 @@ keep_path = ["googled5ad16512fd4565e.html"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "EMM webpage"
-website_descr = "EMM webpage"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "Enrico M. Malatesta"
+website_descr = "Personal academic website of Enrico M. Malatesta, Assistant Professor at Bocconi University."
+website_url   = "https://enricommalatesta.github.io/"
 +++
 
 <!--
