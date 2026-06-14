@@ -38,6 +38,11 @@ $$
 Intuitively if the Boltzmann measure is equidistributed over all the energy levels we expect that $Y_N(\beta) = 2^{-N}$ on average, i.e. it vanishes exponentially fast with $N$. If instead $Y_N(\beta)$ remains finite in the large $N$ limit it means that the measure is focused only on a $O(1)$ number of energy levels. 
 
 
+@@toc-title
+Contents
+@@
+\toc
+
 ## The high temperature phase
 
 When $\beta < \beta_c$ it is easy to compute the participation ratio by using the identity
@@ -227,11 +232,14 @@ $$
 $$
 A finite participation ratio in the condensed phase signals that the Gibbs measure has condensed onto a small number of relevant low-energy states. This is why the low-temperature phase of the REM provides perhaps the simplest example of a condensed, or ''*glassy*'', Boltzmann measure.
 
-The REM is special because its energies are independent, but the same structure survives in more complicated mean-field models where the energies are correlated. In particular, in the one-step replica-symmetry-breaking phase of $p$-spin models, one recovers the same distribution $P(w)$ we have derived here[^1]. The REM thus captures, in its simplest possible form, a structure that persists far beyond the independent-energy setting
+The REM is special because its energies are independent, but the same structure survives in more complicated mean-field models where the energies are correlated. In particular, in the one-step replica-symmetry-breaking phase of $p$-spin models, one recovers the same distribution $P(w)$ we have derived here[^1]. The REM thus captures, in its simplest possible form, a structure that persists far beyond the independent-energy setting.
 
 [^1]: For the readers expert in replica theory, the parameter $m$ appearing in the expression \eqref{eq::P(w)} of $P(w)$ can be identified with the Parisi's breaking parameter. 
 
-## References
+
+@@notoc
+References
+@@
 
 [1] \biblabel{derrida1980}{Derrida (1980)} Derrida, Bernard, "Random-energy model: Limit of a family of disordered models", Physical Review Letters 45.2 (1980): 79.
 

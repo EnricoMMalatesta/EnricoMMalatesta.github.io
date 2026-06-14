@@ -20,6 +20,10 @@ In a previous [post](/blog/2025/REM1), we solved the random energy model (REM) b
 Applying the replica method to the REM is not merely a matter of rederiving known results by a different (and non-rigorous) route. It also gives access to additional information, such as the order parameters and their physical interpretation, and, more importantly, provides a framework that extends to many disordered models for which no equally direct solution is available. Historically, this application of the replica method also provided an early check on the method’s own validity.
 
 
+@@toc-title
+Contents
+@@
+\toc
 
 ## Main definitions
 
@@ -47,8 +51,9 @@ $$
 counts the possible arrangements of indices $i_1\,, \dots \,, i_n \in [2^N]$ such that $q_{ab} = \delta_{i_a i_b}$. 
 
 
-
-## References
+@@notoc
+References
+@@
 
 [1] \biblabel{derrida1980}{Derrida (1980)} Derrida, Bernard, "Random-energy model: Limit of a family of disordered models", Physical Review Letters 45.2 (1980): 79.
 

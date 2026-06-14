@@ -14,6 +14,11 @@
 {{ published }} | **{{ authors }}**
 
 
+@@toc-title
+Contents
+@@
+\toc
+
 ## Main definitions
 The Random Energy Model (REM) is probably the easiest disordered system model with a non-trivial (spin glass) behaviour. It has been introduced and solved by B. Derrida \citep{derrida1980}. It consists in having $2^N$ random independent energy levels $E_i$ each one being extracted from a Gaussian distribution, which I take for simplicity to be having zero mean and variance $N J$
 $$
@@ -298,7 +303,9 @@ $$
 Pr(|X-\mu| \ge \epsilon) \le \frac{\sigma^2}{\epsilon^2} 
 $$
 -->
-## References
+@@notoc
+References
+@@
 
 [1] \biblabel{derrida1980}{Derrida (1980)} Derrida, Bernard, "Random-energy model: Limit of a family of disordered models", Physical Review Letters 45.2 (1980): 79.
 
