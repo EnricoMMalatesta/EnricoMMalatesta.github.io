@@ -34,7 +34,7 @@ For more information see my [publications](/pages/publications/) and [CV](/pages
 
 <!-- I am also interested in exploiting this knowledge to explain the dynamics of simple algorithms and to design new algorithmic paradigms. -->
 
-&nbsp;
+<!-- &nbsp;
 &nbsp;
 &nbsp;
 
@@ -46,7 +46,7 @@ For more information see my [publications](/pages/publications/) and [CV](/pages
 - **June 2026.** Our paper [*Are Neural Networks collision resistant?*](https://journals.aps.org/prx/pdf/10.1103/6shh-9h5m), on neural networks as hard-to-collide functions, appeared in *Physical Review X*.
 - **2026.** [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629), on how narrow networks learn from a teacher, appeared in *Journal of Statistical Mechanics*.
 - **2026.** [*Rare Trajectories in a Prototypical Mean-field Disordered Model: Insights into Landscape and Instantons*](https://journals.aps.org/pre/abstract/10.1103/f4dj-d2sh), on rare dynamical paths in glassy landscapes, appeared in *Physical Review E*. Code is available [here](https://github.com/EnricoMMalatesta/Dynamical_Potential).
-- **September 2025.** I opened a blog, [**Could be worse**](/pages/blog/), with notes and derivations on disordered systems, spin glasses, optimization, and average-case hardness. In a field that studies what happens on average while even toy models freeze, fracture, and hide their solutions, the title is both a joke and a methodological disclaimer: it could be worse.
+- **September 2025.** I opened a blog, [**Could be worse**](/pages/blog/), with notes and derivations on disordered systems, spin glasses, optimization, and average-case hardness. In a field that studies what happens on average while even toy models freeze, fracture, and hide their solutions, the title is both a joke and a methodological disclaimer: it could be worse. -->
 
 $\\$
 @@
