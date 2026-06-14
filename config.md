@@ -16,7 +16,7 @@ mintoclevel = 2
 # Base files such as LICENSE.md and README.md are ignored by default.
 ignore = ["node_modules/"]
 
-keep_path = ["googled5ad16512fd4565e.html"]
+keep_path = ["googled5ad16512fd4565e.html", "sitemap.xml"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
