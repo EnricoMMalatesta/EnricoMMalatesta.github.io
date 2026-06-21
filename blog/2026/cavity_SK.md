@@ -15,6 +15,9 @@
 
 {{ published }} | **{{ authors }}**
 
+@@post-top-nav
+[← All blog posts](/pages/blog/)
+@@
 
 The Sherrington-Kirkpatrick (SK) model [\cite{sherrington1975}] is a paradigmatic model of spin glass theory. It is defined by the Hamiltonian
 $$

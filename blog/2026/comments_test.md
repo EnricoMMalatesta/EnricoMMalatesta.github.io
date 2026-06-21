@@ -10,6 +10,9 @@
 
 {{ published }} | **{{ authors }}**
 
+@@post-top-nav
+[← All blog posts](/pages/blog/)
+@@
 
 ## Adding comments to your Franklin blog
 

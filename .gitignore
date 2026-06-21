@@ -1,8 +1,11 @@
+/blog/2026/REM3.md
+/blog/2026/polymers.md
 __site/
 .DS_Store
 node_modules/
 package-lock.json
 *.nb
+*.ipynb
 *.gp
 
 /pages/scriptjulia.md

@@ -5,14 +5,17 @@
 
 @def title = "The Random Energy Model -- Part II"
 @def authors = "E. Malatesta"
-@def published = "22 March 2025"
+@def published = "15 March 2026"
 @def pt_lang = false
-@def rss_pubdate = Date(2026, 3, 22)
+@def rss_pubdate = Date(2026, 3, 15)
 @def rss = "REM2"
 @def rss_description = """REM part 2"""
 
 {{ published }} | **{{ authors }}**
 
+@@post-top-nav
+[← All blog posts](/pages/blog/)
+@@
 
 In a previous [post](/blog/2025/REM1) we rigorously solved the Random Energy Model (REM) unveiling the presence of a ''condensation'' or ''freezing'' transition at an inverse temperature 
 $$

@@ -13,6 +13,9 @@
 
 {{ published }} | **{{ authors }}**
 
+@@post-top-nav
+[← All blog posts](/pages/blog/)
+@@
 
 @@toc-title
 Contents
