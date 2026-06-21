@@ -1,6 +1,6 @@
 [**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics in statistical physics, spin glasses, optimization and average case hardness
 
-# Directed Polymers on Trees and Traveling Waves
+# Directed Polymers on Trees and Traveling Wavefronts
 
 <!-- Derrida-Spohn directed polymers on disordered trees, freezing, and front selection -->
 
