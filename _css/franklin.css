@@ -427,6 +427,18 @@ td {
   border: none;
 }
 
+/* ==================================================================
+    JUSTIFIED FOOTNOTES
+================================================================== */
+
+.franklin-content .fndef,
+.franklin-content .fndef-content,
+.franklin-content .fndef-content p,
+.franklin-content .fndef td {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 
 /* ==================================================================
     IMAGES in CONTENT

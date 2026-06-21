@@ -6,7 +6,7 @@
 
 # Blog 
 
-[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics in statistical physics, spin glasses, optimization and average case hardness
+[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Notes and derivations on disordered systems, spin glasses, optimization, and average-case hardness.
 
 Blog posts:
 
@@ -15,3 +15,5 @@ Blog posts:
 * [Comment feature enabled!](/blog/2026/comments_test) (January 04, 2026)
 * [The Random Energy Model -- Part II](/blog/2026/REM2) (March 15, 2026)
 * [The Sherrington-Kirkpatrick Model via the Cavity Method](/blog/2026/cavity_SK) (June 2, 2026)
+* [Directed Polymers](/blog/2026/derrida_spohn_directed_polymers) (June 21, 2026)
+
