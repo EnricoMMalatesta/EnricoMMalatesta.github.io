@@ -5,7 +5,7 @@
 
 **Email:** `enrico DOT malatesta AT unibocconi DOT it`
 
-**Office:** Röntgen Building, 2nd floor, C-02-03.
+**Office:** Röntgen Building, 2nd floor, C-01-03.
 
 **Postal address:** Via Guglielmo Röntgen, 14/16, 20136 Milano MI
 
