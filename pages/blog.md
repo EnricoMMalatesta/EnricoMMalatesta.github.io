@@ -16,4 +16,5 @@ Blog posts:
 * [The Random Energy Model -- Part II](/blog/2026/REM2) (March 15, 2026)
 * [The Sherrington-Kirkpatrick Model via the Cavity Method](/blog/2026/cavity_SK) (June 2, 2026)
 * [Directed Polymers on Trees and Traveling Wavefronts](/blog/2026/derrida_spohn_directed_polymers) (June 21, 2026)
+* [Chaos in Random Neural Networks](/blog/2026/SCS) (August 9, 2026)
 
