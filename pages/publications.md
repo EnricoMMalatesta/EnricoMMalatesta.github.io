@@ -3,6 +3,7 @@
 
 See also my [Google Scholar](https://scholar.google.it/citations?user=TJF5CosAAAAJ&hl=it).
 
+- E. M. Malatesta, A. Passalacqua, R. Zecchina, [*On the robustness of noisy solutions in non-convex neural networks*](https://arxiv.org/abs/2607.27000), (2026)
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Collision Resistance of Single-Layer Neural Nets*](https://arxiv.org/html/2606.03807v1), see also [here](https://eprint.iacr.org/2026/1143) (2026)
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://journals.aps.org/prx/pdf/10.1103/6shh-9h5m),  Phys. Rev. X **16**, 021051 (2026).
 - J. Barbier, F. Gerace, A. Ingrosso, C. Lauditi, E. M. Malatesta, G. Nwemadji, R. Pérez Ortiz, [*Generalization performance of narrow one-hidden layer networks in the teacher-student setting*](https://arxiv.org/abs/2507.00629), J. Stat. Mech. (2026) 043405.
