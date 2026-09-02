@@ -46,7 +46,7 @@ For further study, clarification and (solved) exercises, please consult:
 
 Weekly exercises are uploaded on BBoard.
 
-For doubts and questions use [Piazza](https://piazza.com/class/mf579hs9c8x169).
+For doubts and questions use [Piazza](https://piazza.com/class/mtbjf0h8k7k4jn/).
 
 ## Exams
 
