@@ -55,8 +55,7 @@ two partial exams held during the semester or one final general exam.
 Each type of exam will contribute to the final grade as follows:
 * General exam: 32 points
 * Each partial exam: 16 points
-A grade of 30 cum laude corresponds to 31 or 32 points.
-To pass the exam, students must earn a grade of at least 18.
+A grade of 30 cum laude corresponds to a score strictly higher than 30 points and is awarded at the instructor's discretion. To pass the exam, students must earn a grade of at least 18.
 The written exams consists in solving some exercises to be worked out on paper. The purpose
 of the exercises will be to test knowledge of fundamental physical laws and the ability to model
 and solve problems. An aptitude for problem solving along with a rigorous use of advanced
