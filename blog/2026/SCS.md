@@ -166,7 +166,7 @@ $$
 =
 \left\langle \eta(t)\eta(t')\right\rangle.
 $$
-The right and left hand side contain by definition repsectively $C(\tau)$ and $\Delta(\tau)$. Using the fact that $\partial_t=\partial_\tau$ and $\partial_{t'}=-\partial_\tau$ one finds that the first order derivative cancel, obtaining
+The right and left hand side contain by definition respectively $C(\tau)$ and $\Delta(\tau)$. Using the fact that $\partial_t=\partial_\tau$ and $\partial_{t'}=-\partial_\tau$ one finds that the first order derivative cancel, obtaining
 $$
 \label{eq::ODE_Delta}
 \boxed{
