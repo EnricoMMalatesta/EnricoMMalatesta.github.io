@@ -710,7 +710,7 @@ display(plt)
 
 \label{#fig-scs-phase-diagram}
 @@center ![Phase diagram of the one-replica DMFT solutions](/assets/images/blog/scs_dmft_phase_diagram.png) @@
-@@center *Figure 3: Phase diagram in the $(\Delta_0,1/g)$ plane. The orange curve is defined by $V''(0;\Delta_0)=0$ and separates the single-well and double-well shapes of the potential. The light blue curve is defined by $V(\Delta_0;\Delta_0)=0$ and to the DMFT solution with $C(\tau) \to 0$ for $\tau \to \infty$. The green curve is defined by $F(\Delta_0;\Delta_0)=\Delta_0$ and corresponds to the static solution. Therefore below the light blue curve the autocorrelation is periodic and sign changing whereas between the light blue and the green curve it is periodic with positive sign. Above the green line there are no non-trivial solutions to the DMFT equation except for $\Delta(\tau) = 0$. See also [\cite{CS2018}].* @@
+@@center *Figure 3: Phase diagram in the $(\Delta_0,1/g)$ plane. The orange curve is defined by $V''(0;\Delta_0)=0$ and separates the single-well and double-well shapes of the potential. The light blue curve is defined by $V(\Delta_0;\Delta_0)=0$ and corresponds to the DMFT solution with $C(\tau) \to 0$ for $\tau \to \infty$. The green curve is defined by $F(\Delta_0;\Delta_0)=\Delta_0$ which gives the static solution. Therefore below the light blue curve the autocorrelation is periodic and sign changing whereas between the light blue and the green curve it is periodic with positive sign. Above the green line there are no non-trivial solutions to the DMFT equation except for $\Delta(\tau) = 0$. See also [\cite{CS2018}].* @@
 
 
 ## What's next?
