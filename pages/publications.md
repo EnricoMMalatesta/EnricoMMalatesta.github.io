@@ -3,6 +3,7 @@
 
 See also my [Google Scholar](https://scholar.google.it/citations?user=TJF5CosAAAAJ&hl=it).
 
+- B. L. Annesi, D. Straziota, E. M. Malatesta, [*A Flatness-Generalization Relation in the Teacher-Student Tree-Committee Machine*](https://arxiv.org/abs/2609.31101), (2026)
 - E. M. Malatesta, A. Passalacqua, R. Zecchina, [*On the robustness of noisy solutions in non-convex neural networks*](https://arxiv.org/abs/2607.27000), (2026)
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Collision Resistance of Single-Layer Neural Nets*](https://arxiv.org/html/2606.03807v1), see also [here](https://eprint.iacr.org/2026/1143) (2026)
 - M. Benedetti, A. Bogdanov, E. M. Malatesta, M. Mézard, G. Perrupato, A. Rosen, N. I. Schwartzbach, R. Zecchina, [*Are Neural Networks collision resistant?*](https://journals.aps.org/prx/pdf/10.1103/6shh-9h5m),  Phys. Rev. X **16**, 021051 (2026).
