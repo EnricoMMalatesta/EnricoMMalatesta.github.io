@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  The ζ&#40;3&#41; ground state of the random minimum spanning tree  ]]>
+  </title>
+  <link> https://enricommalatesta.github.io/blog/2026/mst/index.html </link>
+  <guid> https://enricommalatesta.github.io/blog/2026/mst/index.html </guid>
+  <description>
+    <![CDATA[  Kruskal&#39;s algorithm, the sparse Erdős–Rényi process, and Frieze&#39;s derivation of the ζ&#40;3&#41; ground-state energy of the random minimum spanning tree  ]]>
+  </description>  
+    
+  <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Enrico M. Malatesta</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Chaos in Random Neural Networks  ]]>
   </title>
   <link> https://enricommalatesta.github.io/blog/2026/SCS/index.html </link>
