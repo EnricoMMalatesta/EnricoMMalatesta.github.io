@@ -25,7 +25,7 @@ Consider the complete graph $K_N$ and assign an independent random variable weig
 Let $E_N$ be the total length of its minimum spanning tree (MST)
 
 $$
-E_N=\sum_{e\in\operatorname{MST}}L_e.
+E_N=\sum_{e\in\mathrm{MST}}L_e.
 $$
 
 From a statistical-physics point of view, $E_N$ is the ground-state energy of the spanning-tree problem. A beautiful result proved by Frieze [\cite{Frieze1985}] states that, if the lengths $L_e$ are uniform on $[0,1]$, then
