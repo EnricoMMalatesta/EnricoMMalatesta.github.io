@@ -31,6 +31,7 @@ $$
 From a statistical-physics point of view, $E_N$ is the ground-state energy of the spanning-tree problem. A beautiful result proved by Frieze [\cite{Frieze1985}] states that, if the lengths $L_e$ are uniform on $[0,1]$, then
 
 $$
+\label{eq::result}
 \lim_{N\to\infty}\mathbb E[E_N]
 =
 \zeta(3)
@@ -39,7 +40,7 @@ $$
 \simeq 1.2020569.
 $$
 
-In this post I want to derive the result by translating Kruskal's algorithm into the language of the Erdős–Rényi random-graph process [\cite{ErdosRenyi1960}]. The logic is the following. Kruskal's algorithm first turns the optimal cost into an integral over the number of connected components of a threshold graph. At edge-length scale $t/N$, this threshold graph is the sparse Erdős–Rényi graph $G(N,t/N)$. Its connected-component density can be written compactly in terms of the fraction $u(t)$ of vertices outside the giant component. Finally, expanding the same density by the size of its finite trees produces one term $1/k^3$ for each tree size $k$.
+In this post I want to derive the result by translating Kruskal's algorithm into the language of the Erdős–Rényi random-graph process [\cite{ErdosRenyi1960}]. The logic is the following. Kruskal's algorithm first turns the optimal cost into an integral over the number of connected components of a threshold graph which turns out to be an Erdős–Rényi random graph $\mathcal{G}(N,p/N)$. We will review some properties of Erdős–Rényi random graphs, in particular the emergence of a `giant component` when $p>1$. We will then argue that a typical connected component (outside the giant one), will be, with high probability a tree.  We therefore will find the connected-component density in the large $N$ limit by counting the number of tree. This in turn will lead us to equation \eqref{eq::result}. 
 
 
 @@toc-title
@@ -71,7 +72,7 @@ We show below a visual implementation of Kruskal's algorithm, for $N=28$ and ver
 
 ## The integral representation of the optimal cost
 
-For $\ell\geq0$, let $\mathcal{G}(N, \ell) = \bigl([N],\{e:L_e\leq\ell\}\bigr)$ be the graph with $N$ vertices containing all edges with length at most $\ell$, and denote its number of connected components by $\mathcal{C}_N(\ell)$. Note that since every edge belongs to $\mathcal{G}(N, \ell)$ independently with probability $\mathbb P(L_e\leq \ell)=\ell$, $\mathcal{G}(N, \ell)$ is exactly an Erdős–Rényi random graph. 
+For $\ell\geq0$, let $\mathcal{G}(N, \ell) = \bigl([N],\{e:L_e\leq\ell\}\bigr)$ be the graph with $N$ vertices containing all edges with length at most $\ell$, and denote its number of connected components by $\mathcal{C}_N(\ell)$. Note that since every edge belongs to $\mathcal{G}(N, \ell)$ independently with probability $P[L_e\leq \ell]=\ell$, $\mathcal{G}(N, \ell)$ is exactly an Erdős–Rényi random graph. 
 
 
 Let $w_1,\ldots,w_{N-1}$ denote the lengths of the $N-1$ edges in the minimum spanning tree of the complete graph $K_N$, for a given realization of the random variables $L_e$. Using the identity $x=\int_0^\infty d\ell\,\Theta(x-\ell)$ where $\Theta(\bullet)$ is the Heaviside function, we can write 
@@ -168,7 +169,7 @@ so a typical vertex belongs to a finite component of size $O(1)$, which is a tre
 $$
 s \simeq \frac{\ln N}{\ln p}
 $$
- 
+
 
 
 ### The equation for the giant component
