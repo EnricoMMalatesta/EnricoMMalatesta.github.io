@@ -6,7 +6,7 @@
 
 # Blog 
 
-[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Notes and derivations on disordered systems, spin glasses, optimization, and average-case hardness.
+[**Could be worse**](https://www.youtube.com/watch?v=GPfKEhFh9ww) - Random topics on statistical physics, spin glasses, optimization, and average-case hardness.
 
 Blog posts:
 
@@ -17,4 +17,5 @@ Blog posts:
 * [The Sherrington-Kirkpatrick Model via the Cavity Method](/blog/2026/cavity_SK) (June 2, 2026)
 * [Directed Polymers on Trees and Traveling Wavefronts](/blog/2026/derrida_spohn_directed_polymers) (June 21, 2026)
 * [Chaos in Random Neural Networks](/blog/2026/SCS) (August 9, 2026)
+* [The random minimum spanning tree problem](/blog/2026/mst) (November 22, 2026)
 

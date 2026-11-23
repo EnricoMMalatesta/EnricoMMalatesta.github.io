@@ -714,7 +714,7 @@ The plots below show that, after a transient regime, the numerical estimate $m_t
 
 
 
-
+#
 
 
 <!-- FOOTNOTES -->

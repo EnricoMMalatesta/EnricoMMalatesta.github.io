@@ -8,6 +8,7 @@ package-lock.json
 *.ipynb
 *.gp
 *toml
+.codex/
 
 /pages/scriptjulia.md
 /_assets/images/background/1*png

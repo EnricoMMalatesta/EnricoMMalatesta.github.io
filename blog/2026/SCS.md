@@ -780,6 +780,7 @@ This is the first signature of the transition: as $g\downarrow1$ from above, the
 What remains is the question we have deliberately postponed. For $g>1$, the one-replica DMFT equation admits several formal solutions: static ones, periodic ones, and the decaying one. Which one is the physical attractor of the original network? And how do we show that the decaying solution is genuinely chaotic rather than merely irregular? These require the two-replica stability analysis and the Lyapunov exponent, which will be the subject of the next post.
 -->
 
+#
 
 <!-- FOOTNOTES -->
 

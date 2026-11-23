@@ -286,7 +286,7 @@ $$
 i.e., the sum’s far left tail is dominated by the single least summand, not by Gaussian aggregation. So a normal approximation is good for the body of the distribution but poor in the extreme left (and right) tail.
 -->
 
-
+#
 
 [^1]: i.e. scaled with $1/N$.
 [^2]: Note that the value of the energy $e_0$ can be obtained by asking: given $M$ normal Gaussian variables $X$ with mean zero and variance $J=1$, what is the typical value attained by the maximum among those? This can be obtained by imposing that the probability of observing the random variable $X$ to be large than a (large) value $x_M$ is comparable to $1/M$ $$\mathrm{Pr}[X \ge x_M] = \int_{x_M}^{\infty} dy \frac{e^{-y^2/2}}{\sqrt{2\pi}} = \frac{1}{2} \mathrm{Erfc}\left( \frac{x_M}{\sqrt{2}}\right) \simeq \frac{e^{-x_M^2/2}}{\sqrt{2\pi} x_M} = \frac{1}{M}\,.$$ Taking logs one finds at the leading order in $M$ $$x_M ≃ \sqrt{2 \ln M} \,.$$ Using $M = 2^N$ and rescaling with $N$ one gets the result. By symmetry and a similar argument one also can get the value $-e_0$ by studying the minimum instead of the maximum. 

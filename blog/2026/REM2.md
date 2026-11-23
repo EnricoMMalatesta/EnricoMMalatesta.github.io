@@ -237,6 +237,8 @@ A finite participation ratio in the condensed phase signals that the Gibbs measu
 
 The REM is special because its energies are independent, but the same structure survives in more complicated mean-field models where the energies are correlated. In particular, in the one-step replica-symmetry-breaking phase of $p$-spin models, one recovers the same distribution $P(w)$ we have derived here[^1]. The REM thus captures, in its simplest possible form, a structure that persists far beyond the independent-energy setting.
 
+#
+
 [^1]: For the readers expert in replica theory, the parameter $m$ appearing in the expression \eqref{eq::P(w)} of $P(w)$ can be identified with the Parisi's breaking parameter. 
 
 
